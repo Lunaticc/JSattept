@@ -1,5 +1,5 @@
-// // var apparently not in use, let, const
 // // https://www.youtube.com/watch?v=hdI2bqOjy3c&t=157s
+// // var apparently not in use, let, const
 // // Data Types //
 // // String, Numbers, Boolean, Null, Undefined, Symbol
 
@@ -52,4 +52,13 @@ const person = {
     }
 }
 
+
 console.log(person.age, person.lastName, person.address.state);
+console.log(`My name is ${person.firstname} and I live in ${person.address.city}, by myself, but I love my girldfriend!`)
+person.firstname = 'Harald';
+console.log(`My username on Du.se is ${person.firstname.substring(0, 3)}${person.lastName.substring(0, 2)}`);
+
+
+
+console.log(person.firstname);
+
