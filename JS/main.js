@@ -38,7 +38,7 @@
 // fruits.pop();
 // console.log(fruits);
 
-// Object variables
+// Object variables //
 
 const person = {
     firstname: 'David',
@@ -61,4 +61,30 @@ console.log(`My username on Du.se is ${person.firstname.substring(0, 3)}${person
 
 
 console.log(person.firstname);
+
+// Todo object //
+
+const todos = [
+    {
+        id: 1,
+        Text: 'take out trash',
+        isComplete: true
+    },
+    {
+        id: 2,
+        Text: 'talk with boss',
+        isComplete: true
+    },
+    {
+        id: 3,
+        Text: 'Dentist appointment!',
+        isComplete: true
+    }
+];
+
+console.log(todos[0].Text)
+
+
+// JSON files //
+
 
