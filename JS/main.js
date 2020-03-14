@@ -40,51 +40,121 @@
 
 // Object variables //
 
-const person = {
-    firstname: 'David',
-    lastName: 'Thiman',
-    age: 26,
-    hobbies: ['programming', 'learning', 'outside activites'],
-    address: {
-        street: 'rymdgatan',
-        city: 'borlänge',
-        state: 'Dalarna'
-    }
-}
+// const person = {
+//     firstname: 'David',
+//     lastName: 'Thiman',
+//     age: 26,
+//     hobbies: ['programming', 'learning', 'outside activites'],
+//     address: {
+//         street: 'rymdgatan',
+//         city: 'borlänge',
+//         state: 'Dalarna'
+//     }
+// }
 
 
-console.log(person.age, person.lastName, person.address.state);
-console.log(`My name is ${person.firstname} and I live in ${person.address.city}, by myself, but I love my girldfriend!`)
-person.firstname = 'Harald';
-console.log(`My username on Du.se is ${person.firstname.substring(0, 3)}${person.lastName.substring(0, 2)}`);
+// console.log(person.age, person.lastName, person.address.state);
+// console.log(`My name is ${person.firstname} and I live in ${person.address.city}, by myself, but I love my girldfriend!`)
+// person.firstname = 'Harald';
+// console.log(`My username on Du.se is ${person.firstname.substring(0, 3)}${person.lastName.substring(0, 2)}`);
 
 
+// person.email = 'David@gmail.com';
+// console.log(person);
 
-console.log(person.firstname);
+// console.log(person.firstname);
 
 // Todo object //
 
-const todos = [
-    {
-        id: 1,
-        Text: 'take out trash',
-        isComplete: true
-    },
-    {
-        id: 2,
-        Text: 'talk with boss',
-        isComplete: true
-    },
-    {
-        id: 3,
-        Text: 'Dentist appointment!',
-        isComplete: true
-    }
-];
+// const todos = [
+//     {
+//         id: 1,
+//         Text: 'take out trash',
+//         isComplete: true
+//     },
+//     {
+//         id: 2,
+//         Text: 'talk with boss',
+//         isComplete: false
+//     },
+//     {
+//         id: 3,
+//         Text: 'Dentist appointment!',
+//         isComplete: true
+//     }
+// ];
 
-console.log(todos[0].Text)
+// console.log(todos[0].Text, todos[0].isComplete);
 
 
 // JSON files //
+//36:00 min
+
+// const TodoJSON = JSON.stringify(todos);
+// console.log(TodoJSON);
+
+// FOR LOOPS //
+
+// for(let i = 0; i < 10; i++){
+//     console.log(`For loop number: ${i}`);
+// }
+
+// WHILE LOOPS //
+// let i = 0;
+// while(i < 10){
+//     console.log(`While Loop Number: ${i}`);
+//     i++;
+// }
+
+// LOOP THROUGH ARRAYS! //
+
+// for(let i = 0; i < todos.length; i++){
+//     console.log(todos[i].Text);
+// }
+//  for(let todo of todos){
+//       console.log(todo.Text);
+//  }
+
+ // FOREACH, MAP, FILTER //
+ //FOREACH
+//  todos.forEach(function(todo) {
+//     console.log(todo.Text);
+//  });
+
+//  //MAP
+//  const todoText = todos.map(function(todo) {
+//     return todo.Text;
+//  });
+//  const todoIndex = todos.map(function(todoID) {
+//     return todoID.id;
+//  });
+
+//  console.log(todoText);
+//  console.log(todoIndex);
+
+//  // FILTER 
+
+//  const todoCompleted = todos.filter(function(todo) {
+//     return todo.isComplete === true;
+//  }).map(function(todo){
+//      return todo.Text;
+//  })
+
+//  console.log(todoCompleted);
 
 
+// CONDITIONALS //
+ // === är för Data Types
+ // == är för ett värde
+ 
+ let cont = Math.floor(Math.random() * 10);
+ let counter = 0;
+
+ console.log(cont);
+
+// const x = 10;
+// if(x === 10){
+//     alert('x is 10');
+// } else{
+//     console.log('x is NOT 10');
+// }
