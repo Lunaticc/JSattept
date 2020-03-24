@@ -158,3 +158,14 @@
 // } else{
 //     console.log('x is NOT 10');
 // }
+function conte(p1, p2){
+    return p1*p2;
+}
+
+console.log(conte(10, 34));
+
+function counting (p3){
+    return Math.floor(Math.random()*p3);
+}
+
+console.log(counting(100));
